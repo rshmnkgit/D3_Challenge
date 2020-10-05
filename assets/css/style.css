@@ -11,7 +11,9 @@ html {
 
 body {
   /* Padding bottom by footer height */
-  padding-bottom: 80px;
+  /* padding-bottom: 30px; */
+  background-color: #f5f5f5;
+  background-color: rgb(165, 165, 165);
 }
 
 #footer {
@@ -23,6 +25,7 @@ body {
   padding-bottom: 40px;
   text-align: center;
   background-color: #f5f5f5;
+  border-top-style: ridge;
 }
 
 #footer p {
@@ -30,17 +33,14 @@ body {
   font-size: 16px;
 }
 
-/* .active {
-    font-weight: bold;
-    fill: #000;
-    fill: #551aaf;
-    transition: fill 0.3s ease-out;
-    text-anchor: middle;
-  }
-  
-  .inactive {
-    font-weight: lighter;
-    fill: #551aaf;
-    transition: fill 0.3s ease-out;
-    text-anchor: middle;
-} */
+.container{
+    padding-bottom: 80px;
+    background-color: white;
+    margin-bottom: 0%;
+}
+
+#header {
+    background-color: #f5f5f5;
+    border-style: ridge;
+    width: 100%;
+}
